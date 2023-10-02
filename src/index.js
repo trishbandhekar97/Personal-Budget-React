@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './index.scss';
 import reportWebVitals from './reportWebVitals';
-
-
-import {BrowserRouter, createBrowserRouter, Routes, RouterProvider, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Hero from './pages/hero/Hero';
 import Login from './pages/login/Login';
 import Menu from './pages/menu/Menu';

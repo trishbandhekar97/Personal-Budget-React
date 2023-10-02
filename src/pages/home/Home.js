@@ -1,4 +1,7 @@
 import React from 'react';
+import Charts from '../charts-js/Charts';
+import PieChart from '../d3/PieChart';
+
 
 function Home() {
   return (
@@ -56,14 +59,12 @@ function Home() {
 
         <div className="text-box">
             <h3>D3 Visualization</h3> 
-            <div id="pieChart"></div>
+            <PieChart/>
         </div>
 
         <div className="text-box">
             <h3>Charts.js Visualization</h3> 
-            <p>
-                <canvas id="myChart" width="400" height="400"></canvas>
-            </p>
+            <Charts></Charts>
         </div>
 
     </div>
